@@ -1,0 +1,31 @@
+" -------- Settings --------
+
+set relativenumber
+
+" Minimal number of screen lines to keep above and below the cursor
+set scrolloff=5
+
+" Use system clipboard
+set clipboard+=unnamedplus
+
+" Search results update in real time
+set incsearch
+
+" Ignore case when searching
+set ignorecase
+
+" If search pattern contains an uppercase letter,
+" the search is case-sensitive
+set smartcase
+
+" -------- Plugins --------
+" https://jb.gg/ideavim-plugins
+
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'machakann/vim-highlightedyank'
+
+" -------- Keybinds --------
+
+nnoremap gE :action ShowErrorDescription <cr>
+nnoremap <space>o <C-w>w
