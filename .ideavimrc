@@ -27,5 +27,13 @@ Plug 'machakann/vim-highlightedyank'
 
 " -------- Keybinds --------
 
-nnoremap gE :action ShowErrorDescription <cr>
 nnoremap <space>o <C-w>w
+
+map gE <Action>(ShowErrorDescription)
+map <space>h <Action>(RenameElement)
+map <space>H <Action>(ShowIntentionActions)
+map <space>r <Action>(FindInPath)
+map <space>l <Action>(GotoFile)
+map <space>j <C-^>
+map <space>q <Action>(CloseContent)
+map <space>g <Action>(ActivateVersionControlToolWindow)>
