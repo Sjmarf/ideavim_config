@@ -30,6 +30,9 @@ Plug 'machakann/vim-highlightedyank'
 nnoremap <space>o <C-w>w
 
 map gE <Action>(ShowErrorDescription)
+map gi <Action>(GotoImplementation)
+map gI <Action>(GotoSuperMethod)
+
 map <space>h <Action>(RenameElement)
 map <space>H <Action>(ShowIntentionActions)
 map <space>r <Action>(FindInPath)
@@ -37,3 +40,4 @@ map <space>l <Action>(GotoFile)
 map <space>j <C-^>
 map <space>q <Action>(CloseContent)
 map <space>g <Action>(ActivateVersionControlToolWindow)
+map <space>s <Action>(Console.Jdbc.Execute)
