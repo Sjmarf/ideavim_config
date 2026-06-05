@@ -36,4 +36,4 @@ map <space>r <Action>(FindInPath)
 map <space>l <Action>(GotoFile)
 map <space>j <C-^>
 map <space>q <Action>(CloseContent)
-map <space>g <Action>(ActivateVersionControlToolWindow)>
+map <space>g <Action>(ActivateVersionControlToolWindow)
